@@ -1,0 +1,29 @@
+---
+name: "geodash-util"
+version: "0.0.1"
+src:
+  docs:
+    - "README.md"
+    - "./src/**/*.js"
+jsdoc:
+  config:
+    opts:
+      recurse: true
+      destination: docs
+    allowUnknownTags: true
+    plugins:
+      - "node_modules/jsdoc/plugins/markdown"
+    markdown:
+      parser: gfm
+    templates:
+      cleverLinks: false
+      monospaceLinks: false
+      default:
+        outputSourceFiles: true
+      path: ink-docstrap
+      theme: lumen
+      navType: vertical
+      linenums: true
+      dateFormat: "MMMM Do YYYY, h:mm:ss a"
+      outputSourceFiles: true
+      outputSourcePath: true
