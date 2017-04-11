@@ -1,6 +1,6 @@
 {
   "name": "geodash-util",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A collection of low-level utility functions for [GeoDash](http://geodash.io) that can be used during building and runtime.",
   "keywords": [
     "map",
